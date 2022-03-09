@@ -1,0 +1,21 @@
+PokeAPI
+
+- Basic information (utilize basic API calls)
+
+    - !pokemon pokemon poke_name attribute
+        - attribute: id, name, weight, height, moves, species, types
+    
+    - Additional Feature: Make into embed card
+    - Level up card
+
+- Pokemon Trainer (utilize MongoDB store information regarding user)
+
+    - !pokemon trainer roll
+        - Roll a random pokemon card
+
+    - !pokemon trainer collection
+        - Showcases collection for a specific user
+
+    - !pokemon trainer info
+        - Indicate information regarding the user
+
