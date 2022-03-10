@@ -1,3 +1,8 @@
+"""
+Main file that implements the "gatcha" game for pokemon
+Users are able to roll random pokemon and will be saved to their profile
+"""
+
 import os
 
 import discord

@@ -1,3 +1,7 @@
+"""
+Main file for API access and creates an embed message for bot to send
+"""
+
 from dis import disco
 from aiohttp import request
 import requests
@@ -30,7 +34,9 @@ def get_information(pokemon_name):
 
     return embedVar
 
-
+"""
+Function for bot to grab all pokemon from a specific generation
+"""
 def get_generation_api(generation):
     response = requests.get(f"https://pokeapi.co/api/v2/generation/{generation}/")
     if response.status_code == 404:

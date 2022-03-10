@@ -1,9 +1,16 @@
+"""
+Main Bot file
+Event handler for loading up the bot
+Event handler for handling messages
+"""
+
 import os
 
 import discord
 from dotenv import load_dotenv
 import poke_api, trainer
 
+# Load sensitive env variables
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 GUILD = os.getenv('DISCORD_GUILD')
