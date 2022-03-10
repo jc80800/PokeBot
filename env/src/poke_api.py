@@ -35,7 +35,7 @@ def get_information(pokemon_name):
     return embedVar
 
 """
-Function for bot to grab all pokemon from a specific generation
+Function for bot to grab all pokemon from a specific generations
 """
 def get_generation_api(generation):
     response = requests.get(f"https://pokeapi.co/api/v2/generation/{generation}/")
